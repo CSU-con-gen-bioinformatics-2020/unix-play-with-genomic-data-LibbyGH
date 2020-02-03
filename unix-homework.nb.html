@@ -1780,8 +1780,8 @@ pre code, pre, code {
 <pre class="bash"><code>cd ~
 pwd</code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiL1VzZXJzL2VyaXFcbiJ9 -->
-<pre><code>/Users/eriq</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiL1VzZXJzL0xpYmJ5XG4ifQ== -->
+<pre><code>/Users/Libby</code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
@@ -1790,8 +1790,10 @@ pwd</code></pre>
 <h1><span class="header-section-number">2</span> Use echo to print <code>my name is ----</code> to stdout. Where <code>----</code> is replaced by your name</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZWNobyBcIm15IG5hbWUgaXMgRXJpY1wiXG5gYGAifQ== -->
-<pre class="bash"><code>echo &quot;my name is Eric&quot;</code></pre>
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuYGBgYmFzaFxuZWNobyBcXG15IG5hbWUgaXMgRXJpY1xcXG5gYGBcbmBgYCJ9 -->
+<p><code>bash</code>bash echo name is Eric<br />
+</p>
+<pre><code></code></pre>
 <!-- rnb-source-end -->
 <!-- rnb-output-begin eyJkYXRhIjoibXkgbmFtZSBpcyBFcmljXG4ifQ== -->
 <pre><code>my name is Eric</code></pre>
@@ -1803,6 +1805,12 @@ pwd</code></pre>
 <h1><span class="header-section-number">3</span> now, really, answer the above question as yourself</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuZWNobyBcIm15IG5hbWUgaXMgTGliYnlcIlxuYGBgIn0= -->
+<pre class="bash"><code>echo &quot;my name is Libby&quot;</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoibXkgbmFtZSBpcyBMaWJieVxuIn0= -->
+<pre><code>my name is Libby</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1810,6 +1818,12 @@ pwd</code></pre>
 <h1><span class="header-section-number">4</span> print the absolute path of the top level of the homework directory where this is</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucHdkIC5cbmBgYCJ9 -->
+<pre class="bash"><code>pwd .</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiL1VzZXJzL0xpYmJ5L0RvY3VtZW50cy9Eb2N1bWVudHNfR2FsYWRyaWVsL05PQUFfV29yay9DU1VfQ29uLUdlbl9Db21wdXRpbmdfMjAyMC9Vbml4LXBsYXlcbiJ9 -->
+<pre><code>/Users/Libby/Documents/Documents_Galadriel/NOAA_Work/CSU_Con-Gen_Computing_2020/Unix-play</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1817,6 +1831,25 @@ pwd</code></pre>
 <h1><span class="header-section-number">5</span> list, in long format, all the files and directories in this homework directory</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLWxcbmBgYCJ9 -->
+<pre class="bash"><code>ls -l</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidG90YWwgMTQ4MFxuLXJ3eHJ3eHJ3eCAgIDEgTGliYnkgIHN0YWZmICAgICAyMjkgSmFuIDMwIDEwOjAzIFJFQURNRS5tZFxuLXJ3eHJ3eHJ3eEAgIDEgTGliYnkgIHN0YWZmICAgICAyMDUgRmViICAyIDE2OjUyIFVuaXgtcGxheS5ScHJvalxuZHJ3eHJ3eHJ3eCAgIDQgTGliYnkgIHN0YWZmICAgICAxMjggSmFuIDMxIDE3OjEyIGJhbVxuLXJ3eHJ3eHJ3eCAgIDEgTGliYnkgIHN0YWZmICAgICAgOTYgSmFuIDMwIDEwOjAzIGNvdW50X2ZpbGVzLnNoXG5kcnd4cnd4cnd4ICA2NiBMaWJieSAgc3RhZmYgICAgMjExMiBKYW4gMzEgMTc6MTIgZmFzdHFcbmRyd3hyd3hyd3ggICAzIExpYmJ5ICBzdGFmZiAgICAgIDk2IEphbiAzMSAxNzoxMiBtZXRhZGF0YVxuZHJ3eHJ3eHJ3eCAgIDQgTGliYnkgIHN0YWZmICAgICAxMjggSmFuIDMxIDE3OjEyIHNhbVxuZHJ3eHJ3eHJ3eCAgIDcgTGliYnkgIHN0YWZmICAgICAyMjQgSmFuIDMxIDE3OjEyIHNpbGx5XG4tcnd4cnd4cnd4ICAgMSBMaWJieSAgc3RhZmYgICAgIDEzNSBKYW4gMzAgMTA6MDMgc21hbGxfaGVhZGVycy5jc3Ncbi1yd3hyd3hyd3ggICAxIExpYmJ5ICBzdGFmZiAgICAgMjA1IEphbiAzMCAxMDowMyB0ZWVueS1nZW5vbWljLWRhdGEuUnByb2pcbi1yd3hyd3hyd3ggICAxIExpYmJ5ICBzdGFmZiAgICA5NzEyIEZlYiAgMiAxNzowOCB1bml4LWhvbWV3b3JrLlJtZFxuLXJ3eHJ3eHJ3eCAgIDEgTGliYnkgIHN0YWZmICA3MDg3NDAgRmViICAyIDE3OjA4IHVuaXgtaG9tZXdvcmsubmIuaHRtbFxuLXJ3eHJ3eHJ3eEAgIDEgTGliYnkgIHN0YWZmICAgIDE3NjMgSmFuIDMwIDExOjEzIHVuaXgtcGxheS5SXG4ifQ== -->
+<pre><code>total 1480
+-rwxrwxrwx   1 Libby  staff     229 Jan 30 10:03 README.md
+-rwxrwxrwx@  1 Libby  staff     205 Feb  2 16:52 Unix-play.Rproj
+drwxrwxrwx   4 Libby  staff     128 Jan 31 17:12 bam
+-rwxrwxrwx   1 Libby  staff      96 Jan 30 10:03 count_files.sh
+drwxrwxrwx  66 Libby  staff    2112 Jan 31 17:12 fastq
+drwxrwxrwx   3 Libby  staff      96 Jan 31 17:12 metadata
+drwxrwxrwx   4 Libby  staff     128 Jan 31 17:12 sam
+drwxrwxrwx   7 Libby  staff     224 Jan 31 17:12 silly
+-rwxrwxrwx   1 Libby  staff     135 Jan 30 10:03 small_headers.css
+-rwxrwxrwx   1 Libby  staff     205 Jan 30 10:03 teeny-genomic-data.Rproj
+-rwxrwxrwx   1 Libby  staff    9712 Feb  2 17:08 unix-homework.Rmd
+-rwxrwxrwx   1 Libby  staff  708740 Feb  2 17:08 unix-homework.nb.html
+-rwxrwxrwx@  1 Libby  staff    1763 Jan 30 11:13 unix-play.R</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>Note that some of the file names might look garbled in the Rmarkdown output. This is a consequency of RMarkdown/html not playing well with the shell’s way of colorizing <code>ls</code> output.</p>
@@ -1825,29 +1858,76 @@ pwd</code></pre>
 <h1><span class="header-section-number">6</span> There is a directory called <code>.git</code> in here that didn’t get listed. List everything again, but make sure <code>.git</code> is in the output</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLWFsXG5gYGAifQ== -->
+<pre class="bash"><code>ls -al</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoidG90YWwgMTQ4OFxuZHJ3eHJ3eHJ3eCAgMTggTGliYnkgIHN0YWZmICAgICA1NzYgRmViICAyIDE3OjA4IC5cbmRyd3hyd3hyd3ggIDE1IExpYmJ5ICBzdGFmZiAgICAgNDgwIEphbiAzMSAxNzoxMiAuLlxuZHJ3eHJ3eHJ3eCAgIDUgTGliYnkgIHN0YWZmICAgICAxNjAgRmViICAyIDE2OjUyIC5ScHJvai51c2VyXG5kcnd4cnd4cnd4ICAxMiBMaWJieSAgc3RhZmYgICAgIDM4NCBGZWIgIDIgMTc6MDggLmdpdFxuLXJ3eHJ3eHJ3eCAgIDEgTGliYnkgIHN0YWZmICAgICAxMjYgSmFuIDMwIDEwOjAzIC5naXRpZ25vcmVcbi1yd3hyd3hyd3ggICAxIExpYmJ5ICBzdGFmZiAgICAgMjI5IEphbiAzMCAxMDowMyBSRUFETUUubWRcbi1yd3hyd3hyd3hAICAxIExpYmJ5ICBzdGFmZiAgICAgMjA1IEZlYiAgMiAxNjo1MiBVbml4LXBsYXkuUnByb2pcbmRyd3hyd3hyd3ggICA0IExpYmJ5ICBzdGFmZiAgICAgMTI4IEphbiAzMSAxNzoxMiBiYW1cbi1yd3hyd3hyd3ggICAxIExpYmJ5ICBzdGFmZiAgICAgIDk2IEphbiAzMCAxMDowMyBjb3VudF9maWxlcy5zaFxuZHJ3eHJ3eHJ3eCAgNjYgTGliYnkgIHN0YWZmICAgIDIxMTIgSmFuIDMxIDE3OjEyIGZhc3RxXG5kcnd4cnd4cnd4ICAgMyBMaWJieSAgc3RhZmYgICAgICA5NiBKYW4gMzEgMTc6MTIgbWV0YWRhdGFcbmRyd3hyd3hyd3ggICA0IExpYmJ5ICBzdGFmZiAgICAgMTI4IEphbiAzMSAxNzoxMiBzYW1cbmRyd3hyd3hyd3ggICA3IExpYmJ5ICBzdGFmZiAgICAgMjI0IEphbiAzMSAxNzoxMiBzaWxseVxuLXJ3eHJ3eHJ3eCAgIDEgTGliYnkgIHN0YWZmICAgICAxMzUgSmFuIDMwIDEwOjAzIHNtYWxsX2hlYWRlcnMuY3NzXG4tcnd4cnd4cnd4ICAgMSBMaWJieSAgc3RhZmYgICAgIDIwNSBKYW4gMzAgMTA6MDMgdGVlbnktZ2Vub21pYy1kYXRhLlJwcm9qXG4tcnd4cnd4cnd4ICAgMSBMaWJieSAgc3RhZmYgICAgOTcxNyBGZWIgIDIgMTc6MDggdW5peC1ob21ld29yay5SbWRcbi1yd3hyd3hyd3ggICAxIExpYmJ5ICBzdGFmZiAgNzEwODg2IEZlYiAgMiAxNzowOCB1bml4LWhvbWV3b3JrLm5iLmh0bWxcbi1yd3hyd3hyd3hAICAxIExpYmJ5ICBzdGFmZiAgICAxNzYzIEphbiAzMCAxMToxMyB1bml4LXBsYXkuUlxuIn0= -->
+<pre><code>total 1488
+drwxrwxrwx  18 Libby  staff     576 Feb  2 17:08 .
+drwxrwxrwx  15 Libby  staff     480 Jan 31 17:12 ..
+drwxrwxrwx   5 Libby  staff     160 Feb  2 16:52 .Rproj.user
+drwxrwxrwx  12 Libby  staff     384 Feb  2 17:08 .git
+-rwxrwxrwx   1 Libby  staff     126 Jan 30 10:03 .gitignore
+-rwxrwxrwx   1 Libby  staff     229 Jan 30 10:03 README.md
+-rwxrwxrwx@  1 Libby  staff     205 Feb  2 16:52 Unix-play.Rproj
+drwxrwxrwx   4 Libby  staff     128 Jan 31 17:12 bam
+-rwxrwxrwx   1 Libby  staff      96 Jan 30 10:03 count_files.sh
+drwxrwxrwx  66 Libby  staff    2112 Jan 31 17:12 fastq
+drwxrwxrwx   3 Libby  staff      96 Jan 31 17:12 metadata
+drwxrwxrwx   4 Libby  staff     128 Jan 31 17:12 sam
+drwxrwxrwx   7 Libby  staff     224 Jan 31 17:12 silly
+-rwxrwxrwx   1 Libby  staff     135 Jan 30 10:03 small_headers.css
+-rwxrwxrwx   1 Libby  staff     205 Jan 30 10:03 teeny-genomic-data.Rproj
+-rwxrwxrwx   1 Libby  staff    9717 Feb  2 17:08 unix-homework.Rmd
+-rwxrwxrwx   1 Libby  staff  710886 Feb  2 17:08 unix-homework.nb.html
+-rwxrwxrwx@  1 Libby  staff    1763 Jan 30 11:13 unix-play.R</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
 <div id="what-are-the-other-hidden-filesdirectories-that-show-up-in-the-above-listing-just-list-them-in-the-fenced-text-block-below" class="section level1">
 <h1><span class="header-section-number">7</span> What are the other hidden files/directories that show up in the above listing? Just list them in the fenced text block below</h1>
-<pre><code></code></pre>
+<pre><code>.
+..
+.Rproj.user
+.gitignore</code></pre>
 </div>
 <div id="list-long-format-the-contents-of-the-directory-.git" class="section level1">
 <h1><span class="header-section-number">8</span> List (long format) the contents of the directory <code>.git</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLWFsZCAuZ2l0LypcbmBgYCJ9 -->
+<pre class="bash"><code>ls -ald .git/*</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiLXJ3eHJ3eHJ3eCAgIDEgTGliYnkgIHN0YWZmICAgIDIzIEphbiAzMCAxMDowMyAuZ2l0L0hFQURcbi1yd3hyd3hyd3ggICAxIExpYmJ5ICBzdGFmZiAgIDM2MCBKYW4gMzAgMTA6MDMgLmdpdC9jb25maWdcbi1yd3hyd3hyd3ggICAxIExpYmJ5ICBzdGFmZiAgICA3MyBKYW4gMzAgMTA6MDMgLmdpdC9kZXNjcmlwdGlvblxuZHJ3eHJ3eHJ3eCAgMTMgTGliYnkgIHN0YWZmICAgNDE2IEphbiAzMSAxNzoxMiAuZ2l0L2hvb2tzXG4tcnctci0tci0tICAgMSBMaWJieSAgc3RhZmYgIDgzNzQgRmViICAyIDE2OjUyIC5naXQvaW5kZXhcbmRyd3hyd3hyd3ggICAzIExpYmJ5ICBzdGFmZiAgICA5NiBKYW4gMzEgMTc6MTIgLmdpdC9pbmZvXG5kcnd4cnd4cnd4ICAgNCBMaWJieSAgc3RhZmYgICAxMjggSmFuIDMxIDE3OjEyIC5naXQvbG9nc1xuZHJ3eHJ3eHJ3eCAgNzUgTGliYnkgIHN0YWZmICAyNDAwIEphbiAzMSAxNzoxMiAuZ2l0L29iamVjdHNcbi1yd3hyd3hyd3ggICAxIExpYmJ5ICBzdGFmZiAgIDExNCBKYW4gMzAgMTA6MDMgLmdpdC9wYWNrZWQtcmVmc1xuZHJ3eHJ3eHJ3eCAgIDUgTGliYnkgIHN0YWZmICAgMTYwIEphbiAzMSAxNzoxMiAuZ2l0L3JlZnNcbiJ9 -->
+<pre><code>-rwxrwxrwx   1 Libby  staff    23 Jan 30 10:03 .git/HEAD
+-rwxrwxrwx   1 Libby  staff   360 Jan 30 10:03 .git/config
+-rwxrwxrwx   1 Libby  staff    73 Jan 30 10:03 .git/description
+drwxrwxrwx  13 Libby  staff   416 Jan 31 17:12 .git/hooks
+-rw-r--r--   1 Libby  staff  8374 Feb  2 16:52 .git/index
+drwxrwxrwx   3 Libby  staff    96 Jan 31 17:12 .git/info
+drwxrwxrwx   4 Libby  staff   128 Jan 31 17:12 .git/logs
+drwxrwxrwx  75 Libby  staff  2400 Jan 31 17:12 .git/objects
+-rwxrwxrwx   1 Libby  staff   114 Jan 30 10:03 .git/packed-refs
+drwxrwxrwx   5 Libby  staff   160 Jan 31 17:12 .git/refs</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
 <div id="if-you-wanted-to-type-ls-fastqdpch_plate1_a06_s6.r1.fq.gz-on-the-command-line-what-is-the-fewest-keystrokes-that-can-get-you-fastqdpch_plate1_a06_s6.r1.fq.gz-using-tab-completion" class="section level1">
 <h1><span class="header-section-number">9</span> if you wanted to type <code>ls fastq/DPCh_plate1_A06_S6.R1.fq.gz</code> on the command line, what is the fewest keystrokes that can get you <code>fastq/DPCh_plate1_A06_S6.R1.fq.gz</code> using TAB completion?</h1>
 <p>I did it in 10 (counting TABs)…</p>
-<pre><code></code></pre>
+<pre><code>I think I did it in 10 keystrokes, including double-tap TAB-completions.</code></pre>
 </div>
 <div id="make-a-new-directory-called-lonely-fastqs-and-inside-of-that-two-directories-r1-and-r2" class="section level1">
 <h1><span class="header-section-number">10</span> make a new directory called <code>lonely-fastqs</code>, and inside of that, two directories R1 and R2</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubWtkaXIgbG9uZWx5LWZhc3Rxc1xubWtkaXIgbG9uZWx5LWZhc3Rxcy9SMVxubWtkaXIgbG9uZWx5LWZhc3Rxcy9SMlxuYGBgIn0= -->
+<pre class="bash"><code>mkdir lonely-fastqs
+mkdir lonely-fastqs/R1
+mkdir lonely-fastqs/R2</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1855,6 +1935,10 @@ pwd</code></pre>
 <h1><span class="header-section-number">11</span> Copy (not move) all the read1 (<code>R1</code>) fastq files in <code>fastqs</code> into <code>lonely-fastqs/R1</code> and all the read2 fastqs into <code>lonely-fastqs/R2</code>. When you are done, on the next line in the code block, list the contents of <code>lonely-fastqs/R1</code> and <code>lonely-fastqs/R2</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuY3AgZmFzdHEvKi5SMi5mcS5neiBsb25lbHktZmFzdHFzL1IyXG5cbmBgYCJ9 -->
+<pre class="bash"><code>cp fastq/*.R2.fq.gz lonely-fastqs/R2
+</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1862,6 +1946,81 @@ pwd</code></pre>
 <h1><span class="header-section-number">12</span> do a recursive, short listing of the contents of <code>lonely-fastqs</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubHMgLVIgbG9uZWx5LWZhc3Rxcy9cbmBgYCJ9 -->
+<pre class="bash"><code>ls -R lonely-fastqs/</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiUjFcblIyXG5cbmxvbmVseS1mYXN0cXMvL1IxOlxuRFBDaF9wbGF0ZTFfQTA1X1M1LlIxLmZxLmd6XG5EUENoX3BsYXRlMV9BMDZfUzYuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0ExMV9TMTEuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0ExMl9TMTIuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0IwNV9TMTcuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0IwNl9TMTguUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0IxMV9TMjMuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0IxMl9TMjQuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0MwNV9TMjkuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0MwNl9TMzAuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0MxMV9TMzUuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0MxMl9TMzYuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0QwNV9TNDEuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0QwNl9TNDIuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0QxMV9TNDcuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0QxMl9TNDguUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0UwNV9TNTMuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0UwNl9TNTQuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0UxMV9TNTkuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0UxMl9TNjAuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0YwNV9TNjUuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0YwNl9TNjYuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0YxMV9TNzEuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0YxMl9TNzIuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0cwNV9TNzcuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0cwNl9TNzguUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0cxMV9TODMuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0cxMl9TODQuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0gwNV9TODkuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0gwNl9TOTAuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0gxMV9TOTUuUjEuZnEuZ3pcbkRQQ2hfcGxhdGUxX0gxMl9TOTYuUjEuZnEuZ3pcblxubG9uZWx5LWZhc3Rxcy8vUjI6XG5EUENoX3BsYXRlMV9BMDVfUzUuUjIuZnEuZ3pcbkRQQ2hfcGxhdGUxX0EwNl9TNi5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQTExX1MxMS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQTEyX1MxMi5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQjA1X1MxNy5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQjA2X1MxOC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQjExX1MyMy5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQjEyX1MyNC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQzA1X1MyOS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQzA2X1MzMC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQzExX1MzNS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfQzEyX1MzNi5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRDA1X1M0MS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRDA2X1M0Mi5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRDExX1M0Ny5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRDEyX1M0OC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRTA1X1M1My5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRTA2X1M1NC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRTExX1M1OS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRTEyX1M2MC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRjA1X1M2NS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRjA2X1M2Ni5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRjExX1M3MS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRjEyX1M3Mi5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRzA1X1M3Ny5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRzA2X1M3OC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRzExX1M4My5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfRzEyX1M4NC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfSDA1X1M4OS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfSDA2X1M5MC5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfSDExX1M5NS5SMi5mcS5nelxuRFBDaF9wbGF0ZTFfSDEyX1M5Ni5SMi5mcS5nelxuIn0= -->
+<pre><code>R1
+R2
+
+lonely-fastqs//R1:
+DPCh_plate1_A05_S5.R1.fq.gz
+DPCh_plate1_A06_S6.R1.fq.gz
+DPCh_plate1_A11_S11.R1.fq.gz
+DPCh_plate1_A12_S12.R1.fq.gz
+DPCh_plate1_B05_S17.R1.fq.gz
+DPCh_plate1_B06_S18.R1.fq.gz
+DPCh_plate1_B11_S23.R1.fq.gz
+DPCh_plate1_B12_S24.R1.fq.gz
+DPCh_plate1_C05_S29.R1.fq.gz
+DPCh_plate1_C06_S30.R1.fq.gz
+DPCh_plate1_C11_S35.R1.fq.gz
+DPCh_plate1_C12_S36.R1.fq.gz
+DPCh_plate1_D05_S41.R1.fq.gz
+DPCh_plate1_D06_S42.R1.fq.gz
+DPCh_plate1_D11_S47.R1.fq.gz
+DPCh_plate1_D12_S48.R1.fq.gz
+DPCh_plate1_E05_S53.R1.fq.gz
+DPCh_plate1_E06_S54.R1.fq.gz
+DPCh_plate1_E11_S59.R1.fq.gz
+DPCh_plate1_E12_S60.R1.fq.gz
+DPCh_plate1_F05_S65.R1.fq.gz
+DPCh_plate1_F06_S66.R1.fq.gz
+DPCh_plate1_F11_S71.R1.fq.gz
+DPCh_plate1_F12_S72.R1.fq.gz
+DPCh_plate1_G05_S77.R1.fq.gz
+DPCh_plate1_G06_S78.R1.fq.gz
+DPCh_plate1_G11_S83.R1.fq.gz
+DPCh_plate1_G12_S84.R1.fq.gz
+DPCh_plate1_H05_S89.R1.fq.gz
+DPCh_plate1_H06_S90.R1.fq.gz
+DPCh_plate1_H11_S95.R1.fq.gz
+DPCh_plate1_H12_S96.R1.fq.gz
+
+lonely-fastqs//R2:
+DPCh_plate1_A05_S5.R2.fq.gz
+DPCh_plate1_A06_S6.R2.fq.gz
+DPCh_plate1_A11_S11.R2.fq.gz
+DPCh_plate1_A12_S12.R2.fq.gz
+DPCh_plate1_B05_S17.R2.fq.gz
+DPCh_plate1_B06_S18.R2.fq.gz
+DPCh_plate1_B11_S23.R2.fq.gz
+DPCh_plate1_B12_S24.R2.fq.gz
+DPCh_plate1_C05_S29.R2.fq.gz
+DPCh_plate1_C06_S30.R2.fq.gz
+DPCh_plate1_C11_S35.R2.fq.gz
+DPCh_plate1_C12_S36.R2.fq.gz
+DPCh_plate1_D05_S41.R2.fq.gz
+DPCh_plate1_D06_S42.R2.fq.gz
+DPCh_plate1_D11_S47.R2.fq.gz
+DPCh_plate1_D12_S48.R2.fq.gz
+DPCh_plate1_E05_S53.R2.fq.gz
+DPCh_plate1_E06_S54.R2.fq.gz
+DPCh_plate1_E11_S59.R2.fq.gz
+DPCh_plate1_E12_S60.R2.fq.gz
+DPCh_plate1_F05_S65.R2.fq.gz
+DPCh_plate1_F06_S66.R2.fq.gz
+DPCh_plate1_F11_S71.R2.fq.gz
+DPCh_plate1_F12_S72.R2.fq.gz
+DPCh_plate1_G05_S77.R2.fq.gz
+DPCh_plate1_G06_S78.R2.fq.gz
+DPCh_plate1_G11_S83.R2.fq.gz
+DPCh_plate1_G12_S84.R2.fq.gz
+DPCh_plate1_H05_S89.R2.fq.gz
+DPCh_plate1_H06_S90.R2.fq.gz
+DPCh_plate1_H11_S95.R2.fq.gz
+DPCh_plate1_H12_S96.R2.fq.gz</code></pre>
+<!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1869,6 +2028,9 @@ pwd</code></pre>
 <h1><span class="header-section-number">13</span> Use the recursive (-r) option to remove <code>lonely-fastqs</code> and its contents</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxucm0gLXIgbG9uZWx5LWZhc3Rxc1xuYGBgIn0= -->
+<pre class="bash"><code>rm -r lonely-fastqs</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -1876,6 +2038,10 @@ pwd</code></pre>
 <h1><span class="header-section-number">14</span> Make two new directories in the top level of the repo called <code>fq_AB</code> and <code>fq_notAB</code></h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxubWtkaXIgZnFfQUJcbm1rZGlyIGZxX25vdEFCXG5gYGAifQ== -->
+<pre class="bash"><code>mkdir fq_AB
+mkdir fq_notAB</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 <p>If you get an error because you already created those directories, that is OK directories are there, it’s all good…</p>
@@ -1884,6 +2050,9 @@ pwd</code></pre>
 <h1><span class="header-section-number">15</span> Using the <code>[</code> <code>]</code> copy the R1 files in <code>fastqs</code> that belong to sample names (the part immediately after <code>DPCh_plate1_</code>) starting with an <code>A</code> or <code>B</code> to <code>fq_AB</code>.</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgYmFzaFxuPz9cbmBgYCJ9 -->
+<pre class="bash"><code>??</code></pre>
+<!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
 </div>
@@ -2144,7 +2313,7 @@ pwd</code></pre>
 <!-- rnb-chunk-end -->
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiVGhlIFwiR2V0dGluZyB0byBLbm93IFVuaXhcIiBQcm9ibGVtIFNldCIKb3V0cHV0OgogIGh0bWxfbm90ZWJvb2s6CiAgICBudW1iZXJfc2VjdGlvbnM6IHllcwotLS0KCjwhLS0gVGhlIGZvbGxvd2luZyBmZXcgbGluZXMganVzdCBjaGFuZ2Ugc29tZSBmb250IHNpemVzIGFuZCBjb2xvcnMgYW5kIGdpdmUgdXMgaG9yaXpvbnRhbCBzY3JvbGxpbmcgY29kZSBhbmQgb3V0cHV0IGJveGVzIC0tPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgpoMS50aXRsZSB7CiAgZm9udC1zaXplOiAzOHB4OwogIGNvbG9yOiBEYXJrUmVkOwp9CmgxIHsgLyogSGVhZGVyIDEgKi8KICBmb250LXNpemU6IDE4cHg7CiAgY29sb3I6IERhcmtCbHVlOwp9CnByZSBjb2RlLCBwcmUsIGNvZGUgewogIHdoaXRlLXNwYWNlOiBwcmUgIWltcG9ydGFudDsKICBvdmVyZmxvdy14OiBzY3JvbGwgIWltcG9ydGFudDsKICB3b3JkLWJyZWFrOiBrZWVwLWFsbCAhaW1wb3J0YW50OwogIHdvcmQtd3JhcDogaW5pdGlhbCAhaW1wb3J0YW50Owp9Cjwvc3R5bGU+CjwhLS0gRG9uJ3QgZWRpdCB0aGUgc3R1ZmYgYWJvdmUgaGVyZSAtLT4KClBsZWFzZSBzdWJtaXQgY29kZSBhbnN3ZXJzIGluIHRoZSBmZW5jZWQgYGJhc2hgIGNvZGUgYmxvY2tzIGJlbG93CmVhY2ggcXVlc3Rpb24vcmVxdWVzdCBiZWxvdy4gIE90aGVyIGFuc3dlcnMgKHRoYXQgYXJlIG5vdCBpbiB3cml0dGVuIGNvZGUgdG8gYmUgZXZhbHVhdGVkKQpqdXN0IGdvIGluIHRoZSBwbGFpbiBvbGQgZmVuY2VkIHRleHQgYmxvY2sgdW5kZXIgdGhlIHF1ZXN0aW9uLgoKV2hlbiB5b3UgYXJlIGRvbmUsIG1ha2Ugc3VyZSB0aGF0IGFsbCBjb2RlIGNodW5rcyBhcmUgZXZhbHVhdGVkIGZyb20KYSBjbGVhbiBlbnZpcm9ubWVudCAoUnVuIC0+IFJ1biBBbGwpCmFuZCB0aGVuIFByZXZpZXcgdGhlIGRvY3VtZW50IHRvIG1ha2UgYSBjbGVhbiAubmIuaHRtbCBvdXRwdXQgZmlsZS4KVGhhdCBpcyB3aGF0IEkgd2lsbCBsb29rIGF0IGFzIHlvdXIgc3VibWlzc2lvbiwgc28gY2hlY2sgaXQgdG8gbWFrZSBzdXJlIGl0Cmxvb2tzIHJpZ2h0LgoKUmVtZW1iZXIsIGV2ZXJ5IG5ldyBmZW5jZWQgY29kZSBibG9jayBpcyBnb2luZyB0byBzdGFydCBydW5uaW5nIGluIGEgc2hlbGwKaW4gdGhlIHByb2plY3QgZGlyZWN0b3J5LCBzbyBpZiB5b3UgbmVlZCB0byBjaGFuZ2UgdG8gYSBuZXcgZGlyZWN0b3J5LCB5b3UKbmVlZCB0byBwdXQgdGhhdCBgY2RgIGNvbW1hbmQgaW4gdGhlcmUuCgpGaW5hbGx5LCB0aGVyZSBpcyBub3QgVEFCIGNvbXBsZXRpb24gZm9yIGJhc2ggaW4gdGhlIGZlbmNlZCBgYmFzaGAgY29kZSBibG9ja3MuClNvLCB5b3UgcHJvYmFibHkgd2FudCB0byBkZXZlbG9wIHlvdXIgY29tbWFuZCBsaW5lcyBpbiB0aGUgdGVybWluYWwgd2luZG93LgoKSSBwcm92aWRlIGFuIGFuc3dlciBmb3IgcXVlc3Rpb25zIDEgYW5kIDIgYXMgZXhhbXBsZXMgb2Ygd2hhdCB3ZSBhcmUgbG9va2luZyBmb3IuCgoKIyBgY2RgIHRvIHlvdXIgaG9tZSBkaXJlY3RvcnkgYW5kIHByaW50IGl0cyBwYXRoCgpgYGB7YmFzaH0KY2Qgfgpwd2QKYGBgCgojIFVzZSBlY2hvIHRvIHByaW50IGBteSBuYW1lIGlzIC0tLS1gIHRvIHN0ZG91dC4gIFdoZXJlIGAtLS0tYCBpcyByZXBsYWNlZCBieSB5b3VyIG5hbWUKCmBgYHtiYXNofQplY2hvICJteSBuYW1lIGlzIEVyaWMiCmBgYAoKCiMgbm93LCByZWFsbHksIGFuc3dlciB0aGUgYWJvdmUgcXVlc3Rpb24gYXMgeW91cnNlbGYKCmBgYHtiYXNofQoKYGBgCgojIHByaW50IHRoZSBhYnNvbHV0ZSBwYXRoIG9mIHRoZSB0b3AgbGV2ZWwgb2YgdGhlIGhvbWV3b3JrIGRpcmVjdG9yeSB3aGVyZSB0aGlzIGlzCgpgYGB7YmFzaH0KCmBgYAoKIyBsaXN0LCBpbiBsb25nIGZvcm1hdCwgYWxsIHRoZSBmaWxlcyBhbmQgZGlyZWN0b3JpZXMgaW4gdGhpcyBob21ld29yayBkaXJlY3RvcnkKCmBgYHtiYXNofQoKYGBgCgpOb3RlIHRoYXQgc29tZSBvZiB0aGUgZmlsZSBuYW1lcyBtaWdodCBsb29rIGdhcmJsZWQgaW4gdGhlIFJtYXJrZG93biBvdXRwdXQuICBUaGlzCmlzIGEgY29uc2VxdWVuY3kgb2YgUk1hcmtkb3duL2h0bWwgbm90IHBsYXlpbmcgd2VsbCB3aXRoIHRoZSBzaGVsbCdzIHdheSBvZgpjb2xvcml6aW5nIGBsc2Agb3V0cHV0LgoKIyBUaGVyZSBpcyBhIGRpcmVjdG9yeSBjYWxsZWQgYC5naXRgIGluIGhlcmUgdGhhdCBkaWRuJ3QgZ2V0IGxpc3RlZC4gTGlzdCBldmVyeXRoaW5nIGFnYWluLCBidXQgbWFrZSBzdXJlIGAuZ2l0YCBpcyBpbiB0aGUgb3V0cHV0CgpgYGB7YmFzaH0KCmBgYAoKIyBXaGF0IGFyZSB0aGUgb3RoZXIgaGlkZGVuIGZpbGVzL2RpcmVjdG9yaWVzIHRoYXQgc2hvdyB1cCBpbiB0aGUgYWJvdmUgbGlzdGluZz8gSnVzdCBsaXN0IHRoZW0gaW4gdGhlIGZlbmNlZCB0ZXh0IGJsb2NrIGJlbG93CgpgYGAKCmBgYAoKIyBMaXN0IChsb25nIGZvcm1hdCkgdGhlIGNvbnRlbnRzIG9mIHRoZSBkaXJlY3RvcnkgYC5naXRgCgpgYGB7YmFzaH0KCmBgYAoKIyBpZiB5b3Ugd2FudGVkIHRvIHR5cGUgYGxzIGZhc3RxL0RQQ2hfcGxhdGUxX0EwNl9TNi5SMS5mcS5nemAgb24gdGhlIGNvbW1hbmQgbGluZSwgd2hhdCBpcyB0aGUgZmV3ZXN0IGtleXN0cm9rZXMgdGhhdCBjYW4gZ2V0IHlvdSBgZmFzdHEvRFBDaF9wbGF0ZTFfQTA2X1M2LlIxLmZxLmd6YCB1c2luZyBUQUIgY29tcGxldGlvbj8KCkkgZGlkIGl0IGluIDEwIChjb3VudGluZyBUQUJzKS4uLgoKYGBgCgpgYGAKCiMgbWFrZSBhIG5ldyBkaXJlY3RvcnkgY2FsbGVkIGBsb25lbHktZmFzdHFzYCwgYW5kIGluc2lkZSBvZiB0aGF0LCB0d28gZGlyZWN0b3JpZXMgUjEgYW5kIFIyCgpgYGB7YmFzaH0KCmBgYAoKIyBDb3B5IChub3QgbW92ZSkgYWxsIHRoZSByZWFkMSAoYFIxYCkgZmFzdHEgZmlsZXMgaW4gYGZhc3Rxc2AgaW50byBgbG9uZWx5LWZhc3Rxcy9SMWAgYW5kIGFsbCB0aGUgcmVhZDIgZmFzdHFzIGludG8gYGxvbmVseS1mYXN0cXMvUjJgLiBXaGVuIHlvdSBhcmUgZG9uZSwgb24gdGhlIG5leHQgbGluZSBpbiB0aGUgY29kZSBibG9jaywgbGlzdCB0aGUgY29udGVudHMgb2YgYGxvbmVseS1mYXN0cXMvUjFgIGFuZCBgbG9uZWx5LWZhc3Rxcy9SMmAKCmBgYHtiYXNofQoKYGBgCgojIGRvIGEgcmVjdXJzaXZlLCBzaG9ydCBsaXN0aW5nIG9mIHRoZSBjb250ZW50cyBvZiBgbG9uZWx5LWZhc3Rxc2AKCmBgYHtiYXNofQoKYGBgCgojIFVzZSB0aGUgcmVjdXJzaXZlICgtcikgb3B0aW9uIHRvIHJlbW92ZSBgbG9uZWx5LWZhc3Rxc2AgYW5kIGl0cyBjb250ZW50cwoKYGBge2Jhc2h9CgpgYGAKCiMgTWFrZSB0d28gbmV3IGRpcmVjdG9yaWVzIGluIHRoZSB0b3AgbGV2ZWwgb2YgdGhlIHJlcG8gY2FsbGVkIGBmcV9BQmAgYW5kIGBmcV9ub3RBQmAKCmBgYHtiYXNofQoKYGBgCgpJZiB5b3UgZ2V0IGFuIGVycm9yIGJlY2F1c2UgeW91IGFscmVhZHkgY3JlYXRlZCB0aG9zZSBkaXJlY3RvcmllcywgdGhhdCBpcyBPSwpkaXJlY3RvcmllcyBhcmUgdGhlcmUsIGl0J3MgYWxsIGdvb2QuLi4KCiMgVXNpbmcgdGhlIGBbYCBgXWAgY29weSB0aGUgUjEgZmlsZXMgaW4gYGZhc3Rxc2AgdGhhdCBiZWxvbmcgdG8gc2FtcGxlIG5hbWVzICh0aGUgcGFydCBpbW1lZGlhdGVseSBhZnRlciBgRFBDaF9wbGF0ZTFfYCkgc3RhcnRpbmcgd2l0aCBhbiBgQWAgb3IgYEJgIHRvIGBmcV9BQmAuICAKCmBgYHtiYXNofQoKYGBgCgojIE5vdywgdXNpbmcgbmVnYXRpb24gKGBeYCkgd2l0aCBgW2AgYW5kIGBdYCBjb3B5IGFsbCB0aGUgUjEgZmlsZXMgdGhhdCBkb24ndCBiZWxvbmcgdG8gc2FtcGxlIG5hbWVzIHN0YXJ0aW5nIHdpdGggYW4gYEFgIG9yIGEgYEJgIHRvIGBmcV9ub3RBQmAuIFdoZW4geW91IGFyZSBkb25lLCBvbiB0aGUgbmV4dCBsaW5lIGluIHRoZSBjb2RlIGJsb2NrLCBsaXN0IHRoZSBjb250ZW50cyBvZiBgZnFfQUJgIGFuZCBgZnFfbm90QUJgLiAKCmBgYHtiYXNofQoKYGBgCgojIFJlbW92ZSBgZnFfQUJgIGFuZCBgZnFfbm90QUJgLCBhbmQgdGhlaXIgY29udGVudHMKCmBgYHtiYXNofQoKYGBgCgojIFVzaW5nIHRoZSBgeyx9YCBjb25zdHJ1Y3QgY3JlYXRlIGZpdmUgZGlyZWN0b3JpZXMgbmFtZWQgYGRpcl9BYCwgYGRpcl9DYCwgYGRpcl9FYCwgYGRpcl9HYCwgYW5kIGBkaXJfSWAsIGFuZCBsaXN0IHRoZW0gKGJ1dCBub3QgdGhlaXIgY29udGVudHMpIHdoZW4geW91IGFyZSBkb25lCgpgYGB7YmFzaH0KCmBgYAoKIyBVc2luZyBnbG9iYmluZywgcmVtb3ZlIGBkaXJfQWAsIGBkaXJfQ2AsIGBkaXJfRWAsIGBkaXJfR2AsIGFuZCBgZGlyX0lgLCB1c2luZyBhIGNvbW1hbmQgd2l0aCA4IGNoYXJhY3RlcnMgKGluY2x1ZGluZyBzcGFjZXMpCgpgYGB7YmFzaH0KCmBgYAoKIyBDcmVhdGUgYSBkaXJlY3RvcnkgY2FsbGVkIGBuaWNlX2Rpcl9uYW1lYCBhbmQgdGhlbiB1c2UgYGVjaG9gLCByZWRpcmVjdGluZyBpdHMgb3V0cHV0IHRvIGNyZWF0ZSBhIGZpbGUgY2FsbGVkIGBuaWNlX2ZpbGVfbmFtZWAgaW5zaWRlIG9mIGBuaWNlX2Rpcl9uYW1lYCB3aG9zZSBjb250ZW50cyBpcyB0aGUgc3RyaW5nIGBBIHN0cmluZyBpbiBhIGZpbGUhYAoKYGBge2Jhc2h9CgpgYGAKCiMgQ2F0ZW5hdGUgdGhlIGNvbnRlbnRzIG9mIGBuaWNlX2Rpcl9uYW1lL25pY2VfZmlsZV9uYW1lYCB0byBfc3Rkb3V0XwoKYGBge2Jhc2h9CgpgYGAKCiMgQ3JlYXRlIGEgZGlyZWN0b3J5IGNhbGxlZCBgYmFkIGRpcmVjdG9yeSBuYW1lIHdpdGggc3BhY2VzYCwgYW5kIHRoZW4sIHdpdGggcmVkaXJlY3Rpb24sIGNyZWF0ZSBhIGZpbGUgaW5zaWRlIGl0LCBuYW1lZCBgYmFkIGZpbGUgbmFtZSB3aXRoIHNwYWNlc2Agd2hvc2UgY29udGVudHMgYXJlIHRoZSBzdHJpbmcgYFdob2EhIE5vIHNwYWNlcywgcGxlYXNlIWAuICBVc2UgYmFja3NsYXNoIGVzY2FwaW5nIGluc3RlYWQgb2YgcXVvdGluZwoKYGBge2Jhc2h9CgpgYGAKCiMgQ2F0ZW5hdGUgdGhlIGNvbnRlbnRzIG9mIGBiYWQgZGlyZWN0b3J5IG5hbWUgd2l0aCBzcGFjZXMvYmFkIGZpbGUgbmFtZSB3aXRoIHNwYWNlc2AKCmBgYHtiYXNofQoKYGBgCgojIGxpc3QgdGhlIGRpcmVjdG9yaWVzIChqdXN0IHRoZSBuYW1lcywgbm90IHRoZSBjb250ZW50cyAoYC1kYCkpIGBiYWQgZGlyZWN0b3J5IG5hbWUgd2l0aCBzcGFjZXNgIGFuZCBgbmljZV9kaXJfbmFtZWAuCgpgYGB7YmFzaH0KCmBgYAoKIyBPbmNlIHlvdSBhcmUgY29udmluY2VkIHRoYXQgeW91IGNhbiBsaXN0IHRoZSBkaXJlY3RvcmllcyBjb3JyZWN0bHkgaW4geW91ciB0ZXJtaW5hbCwgcmVjYWxsIHRoYXQgYGxzYCBjb21tYW5kIGFuZCByZXBsYWNlIGBsc2Agd2l0aCBgcm0gLXJgIHRvIHJlbW92ZSB0aGVtCgpgYGB7YmFzaH0KCmBgYAoKIyBXaHkgaXMgaXQgYSBnb29kIGlkZWEgdG8gYGxzYCB0aGluZ3MgYmVmb3JlIHJlbW92aW5nIHRoZW0/CgpgYGAKCmBgYAoKIyBJZiB5b3UgaGFkIGp1c3QgdHlwZWQgYHJtIC1yIGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlc2Agd2hhdCB3b3VsZCBVbml4IGhhdmUgdHJpZWQgdG8gcmVtb3ZlPwoKYGBgCgpgYGAKCiMgVGhlcmUgYXJlIGJhbSwgc2FtLCBhbmQgZmFzdHEgZmlsZXMsIGluIHRoZSBhcHByb3ByaWF0ZWx5IG5hbWVkIGRpcmVjdG9yaWVzIGZvciBzYW1wbGUgYEEwNV9TNWAuIE1ha2UgYSBkaXJlY3RvcnkgbmFtZWQgYEEwNV9TNWAgYW5kIGNvcHkgYWxsIHRob3NlIGZpbGVzIGludG8gdGhhdCBuZXcgZGlyZWN0b3J5LiAgTGlzdCB0aGUgZGlyZWN0b3J5IHdoZW4geW91IGFyZSBkb25lLgoKYGBge2Jhc2h9CgpgYGAKCiMgcmVtb3ZlIHRoZSBkaXJlY3RvcnkgYEEwNV9TNWAgYW5kIGl0cyBjb250ZW50cwoKYGBge2Jhc2h9CgpgYGAKCiMgVXNlIGBsc2AgdG8gdHJ5IHRvIGxpc3QgdGhlIGZpbGUgYGl0X2FpbnRfaGVyZWAKCmBgYHtiYXNofQoKYGBgCgojIE5vdywgZG8gdGhlIHNhbWUgdGhpbmcgYnV0IHJlZGlyZWN0IF9zdGRlcnJfIGludG8gYSBmaWxlIGNhbGxlZCBgbXlfYmFkLnR4dGAsIGFuZCB0aGVuIGNhdGVuYXRlIHRoZSBjb250ZW50cyBvZiB0aGF0IGZpbGUsIGFuZCB0aGVuIHJlbW92ZSBpdAoKYGBge2Jhc2h9CgpgYGAKCiMgVGhlIGZpbGVzIGluIGBmYXN0cWAgYXJlIHRleHQgZmlsZXMsIGJ1dCB0aGV5IGFyZSBhbGwgZ3ppcHBlZC4gIFVzaW5nIGBnemNhdGAgYW5kIGEgcGlwZSwgdmlldyB0aGUgZmlyc3QgOCBsaW5lcyBvZiBgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMS5mcS5nemAKCmBgYHtiYXNofQoKYGBgCgojIERvIHRoZSBzYW1lIHRvIHNlZSB0aGUgZmlyc3QgOCBsaW5lcyBvZiBgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMi5mcS5nemAKCmBgYHtiYXNofQoKYGBgCgojIFdoYXQgZG8geW91IG5vdGljZSBhYm91dCB0aGUgbmFtZXMgb2YgdGhlIHR3byByZWFkcyBpbiBlYWNoIGZpbGUgKExpbmVzIDEgYW5kIDUsIHRoYXQgc3RhcnQgd2l0aCBhIGBAYCkKCmBgYAoKYGBgCgoKIyBQcmludCB0aGUgZGF0ZSwgcmVkaXJlY3QgaXQgdG8gYSBmaWxlIGNhbGxlZCBgbm93LnR4dGAsIGNhdGVuYXRlIHRoYXQgZmlsZSB0byBfc3Rkb3V0XyBhbmQgdGhlbiByZW1vdmUgaXQKCmBgYHtiYXNofQoKYGBgCgojIENvdW50IHRoZSBudW1iZXIgb2YgbGluZXMvd29yZHMvY2hhcmFjdGVycyAodXNpbmcgYHdjYCkgaW4gdGhlIHR3byBTQU0gZmlsZXMgaW4gdGhlIGBzYW1gIGRpcmVjdG9yeQoKYGBge2Jhc2h9CgpgYGAKCiMgTm90ZSB0aGF0IGd6Y2F0IHdpbGwgZGVjb21wcmVzcyBhbGwgZmlsZXMgeW91IGdpdmUgaXQgYW5kIHNlbmQgdGhlIG91dHB1dCB0byBfc3Rkb3V0Xy4gIEtub3dpbmcgdGhpcywgY291bnQgaG93IG1hbnkgbGluZXMgYXJlIGluIGFsbCB0aGUgYFIxYCBmaWxlcyBpbiBgZmFzdHFgIChhZnRlciBkZWNvbXByZXNzaW5nIHRoZW0gaW50byB0ZXh0IGZpbGVzKSwgYW5kIGFsc28gY291bnQgdXAgYWxsIHRoZSBsaW5lcyBpbiB0aGUgYFIxYCBmaWxlcyBpbiBgZmFzdHFgLiAgTm90ZSB0aGV5IHNob3VsZCBiZSB0aGUgc2FtZS4KCmBgYHtiYXNofQoKYGBgCgojIE5vdywgZ3pjYXQgYWxsIHRoZSBgUjFgIGZpbGVzIGluIGBmYXN0cWAgYW5kIHJlZGlyZWN0IHRoYXQgdG8gYSBmaWxlIGNhbGxlZCBgUjFfYWxsX3ZpYV9nemNhdC5mcWAgaW4gdGhlIHRvcCBkaXJlY3Rvcnkgb2YgdGhlIHJlcG8KCmBgYHtiYXNofQoKYGBgCgojIFBlb3BsZSBhcmUgdXN1YWxseSBmYW1pbGlhciB3aXRoIHVzaW5nIGBjYXRgIHRvIGNhdGVuYXRlIHRleHQgZmlsZXMuICBJdCB0dXJucyBvdXQgdGhhdCB5b3UgY2FuIGFsc28gY2F0ZW5hdGUgYGd6aXBgIGNvbXByZXNzZWQgZmlsZXMuICBUaGUgcmVzdWx0IGlzIGFub3RoZXIgcHJvcGVybHkgZ3ppcHBlZCBmaWxlIHRoYXQgY2FuIGJlIGRlY29tcHJlc3NlZC4gIENhdGVuYXRlIGFsbCB0aGUgZ3ppcHBlZCBgUjFgIGZpbGVzIGluIGBmYXN0cWAgaW50byBhIHNpbmdsZSAoc3RpbGwgZ3ppcHBlZCkgZmlsZSBjYWxsZWQgYFIxX2FsbF92aWFfY2F0LmZxLmd6YAoKYGBge2Jhc2h9CgpgYGAKCiMgQ29weSBgUjFfYWxsX3ZpYV9jYXQuZnEuZ3pgIHRvIGBjb3B5X29mX1IxX2FsbF92aWFfY2F0LmZxLmd6YAoKYGBge2Jhc2h9CgpgYGAKCiMgTm93LCBkZWNvbXByZXNzIGBSMV9hbGxfdmlhX2NhdC5mcS5nemAgaW50byBgUjFfYWxsX3ZpYV9jYXQuZnFgCgpgYGB7YmFzaH0KCmBgYAoKIyBDb21wdXRlIHRoZSBTSEExIGhhc2hlcyBvZiBgUjFfYWxsX3ZpYV9jYXQuZnFgIGFuZCBgUjFfYWxsX3ZpYV9nemNhdC5mcWAgdG8gY29uZmlybSB0aGV5IGFyZSBpZGVudGljYWwKCmBgYHtiYXNofQoKYGBgCgojIEJ1dCBub3csIGd6aXAgYFIxX2FsbF92aWFfZ3pjYXQuZnFgIGFuZCBjb21wYXJlIHRoZSByZXN1bHQgdG8gYGNvcHlfb2ZfUjFfYWxsX3ZpYV9jYXQuZnEuZ3pgIGJ5IGNvbXB1dGluZyB0aGUgU0hBMSBoYXNoIG9mIGVhY2gKCmBgYHtiYXNofQoKYGBgCgpOb3RlIHRoYXQgdGhpcyBzaG93cyB0aGF0LCBhbHRob3VnaCB0aGUgY29tcHJlc3NlZCBmaWxlcyBhcmUgbm90IGlkZW50aWNhbCwgdGhlaXIgY29udGVudHMgKG9uY2UgZGVjb21wcmVzc2VkLCBhcmUgaWRlbnRpY2FsKS4KCiMgdXNpbmcgYGR1YCB3aXRoIHRoZSBgLWhgIChpLmUuICJodW1hbiByZWFkYWJsZSIgb3B0aW9uKSBwcmludCB0aGUgZmlsZSBzaXplcyBvZiBgUjFfYWxsX3ZpYV9jYXQuZnFgIGFuZCBgY29weV9vZl9SMV9hbGxfdmlhX2NhdC5mcS5nemAuCgpgYGB7YmFzaH0KCmBgYAoKIyBCeSB3aGF0IGZhY3RvciAoYXBwcm94aW1hdGVseSkgZG9lcyB0aGUgY29tcHJlc3Npb24gc2F2ZSBzdG9yYWdlIHNwYWNlIG9uIHlvdXIgZGlzaz8KCmBgYAoKYGBgCgojIFJlbW92ZSBhbGwgZmlsZXMgc3RhcnRpbmcgd2l0aCBgUjFfYWxsYCBhbmQgYGNvcHlfb2ZfUjFgCgpgYGB7YmFzaH0KCmBgYAoKIyBOb3csIHByaW50IHRoZSBmaWxlIHNpemVzICh3aXRoIGBkdSAtaGAsIGFnYWluKSBvZiB0aGUgZmlsZXMgaW4gYGJhbWAgdG8gdGhlIGZpbGVzIGluIGBzYW1gCgpgYGB7YmFzaH0KCmBgYAoKCiMgUHJpbnQgdGhlIGxhc3QgMTUgbGluZXMgb2YgYHNhbS9EUENoX3BsYXRlMV9BMDVfUzUuc2FtYCB0byBfc3Rkb3V0XwoKYGBge2Jhc2h9CgpgYGAKCklmIGl0IGFsbCBsb29rcyBsaWtlIGdpYmJlcmlzaCB0byB5b3UsIGRlc3BhaXIgbm90ISAgWW91IHdpbGwgYmUgc3VwZXIgZmFtaWxpYXIgd2l0aAp0aGlzIGZpbGUgZm9ybWF0IHdpdGhpbiBhIGNvdXBsZSBvZiB3ZWVrcyBmcm9tIG5vdy4KCgojIFByaW50IHRoZSBfZmlyc3RfIDE1IGxpbmVzIG9mIGBzYW0vRFBDaF9wbGF0ZTFfQTA1X1M1LnNhbWAgdG8gX3N0ZG91dF8KCmBgYHtiYXNofQoKYGBgCgojIENhdGVuYXRlIHRoZSBmaWxlIGBjb3VudF9maWxlcy5zaGAgdG8gX3N0ZG91dF8KCmBgYHtiYXNofQoKYGBgCgojIE5vdGUgdGhhdCBgY291bnRfZmlsZXMuc2hgIGlzIGEgc2hvcnQgc2hlbGwgc2NyaXB0LiBUcnkgdG8gZXhlY3V0ZSBpdCB3aXRoIGAuL2NvdW50X2ZpbGVzLnNoYAoKYGBge2Jhc2h9CgpgYGAKCkFoYSEgWW91IHNob3VsZCBoYXZlIGdvdHRlbiBhIHBlcm1pc3Npb24gZGVuaWVkIGVycm9yLiAgOTklIG9mIHRoZSB0aW1lIHRoYXQgb2NjdXJzIGJlY2F1c2UKdGhlIGZpbGUgaXMgbm90IHVzZXItZXhlY3V0YWJsZS4KCiMgTGlzdCAobG9uZykgYGNvdW50X2ZpbGVzLnNoYCB0byBzZWUgd2hhdCB0aGUgcGVybWlzc2lvbnMgYXJlLCBhbmQgdGhlbiBhZGQgZXhlY3V0ZSAoYHhgKSBwZXJtaXNzaW9ucyB0byB1c2VycyBhbmQgZ3JvdXBzIHdpdGggdGhlICJhZGQtb3Itc3VidHJhY3QgcGVybWlzc2lvbnMgc3ludGF4IiBvZiBgY2htb2RgLCB0aGVuIGxvbmcgbGlzdCBpdCBhZ2FpbgoKYGBge2Jhc2h9CgpgYGAKCgoKCiMgVXNlIGNobW9kIHRvIGNoYW5nZSBwZXJtaXNzaW9ucyBvZiB0aGUgZmlsZXMgaW4gdGhlIGBzaWxseWAgZGlyZWN0b3J5IHRvIG1hdGNoIHRoZWlyIG5hbWVzLiBGb3IgZXhhbXBsZSBmb3IgdGhlIGZpcnN0IG9uZSB5b3Ugd291bGQgdXNlOiBgY2htb2QgNzcwIEZJTEUtcnd4cnd4LS0tYC4gIFVzZSB0aGUgb2N0YWwgc3BlY2lmaWVycyB0byBgY2htb2RgLiBEbyB0aGlzIGZvciBhbGwgNSBmaWxlcyAob25lIGNobW9kIGNvbW1hbmQgZm9yIGVhY2gpLCBhbmQgYXQgdGhlIGVuZCBkbyBgbHMgLWwgc2lsbHlgIHRvIHZlcmlmeSB0aGV5IGFyZSBjb3JyZWN0LgoKYGBge2Jhc2h9CgpgYGAK</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiVGhlIFwiR2V0dGluZyB0byBLbm93IFVuaXhcIiBQcm9ibGVtIFNldCIKb3V0cHV0OgogIGh0bWxfbm90ZWJvb2s6CiAgICBudW1iZXJfc2VjdGlvbnM6IHllcwotLS0KCjwhLS0gVGhlIGZvbGxvd2luZyBmZXcgbGluZXMganVzdCBjaGFuZ2Ugc29tZSBmb250IHNpemVzIGFuZCBjb2xvcnMgYW5kIGdpdmUgdXMgaG9yaXpvbnRhbCBzY3JvbGxpbmcgY29kZSBhbmQgb3V0cHV0IGJveGVzIC0tPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgpoMS50aXRsZSB7CiAgZm9udC1zaXplOiAzOHB4OwogIGNvbG9yOiBEYXJrUmVkOwp9CmgxIHsgLyogSGVhZGVyIDEgKi8KICBmb250LXNpemU6IDE4cHg7CiAgY29sb3I6IERhcmtCbHVlOwp9CnByZSBjb2RlLCBwcmUsIGNvZGUgewogIHdoaXRlLXNwYWNlOiBwcmUgIWltcG9ydGFudDsKICBvdmVyZmxvdy14OiBzY3JvbGwgIWltcG9ydGFudDsKICB3b3JkLWJyZWFrOiBrZWVwLWFsbCAhaW1wb3J0YW50OwogIHdvcmQtd3JhcDogaW5pdGlhbCAhaW1wb3J0YW50Owp9Cjwvc3R5bGU+CjwhLS0gRG9uJ3QgZWRpdCB0aGUgc3R1ZmYgYWJvdmUgaGVyZSAtLT4KClBsZWFzZSBzdWJtaXQgY29kZSBhbnN3ZXJzIGluIHRoZSBmZW5jZWQgYGJhc2hgIGNvZGUgYmxvY2tzIGJlbG93CmVhY2ggcXVlc3Rpb24vcmVxdWVzdCBiZWxvdy4gIE90aGVyIGFuc3dlcnMgKHRoYXQgYXJlIG5vdCBpbiB3cml0dGVuIGNvZGUgdG8gYmUgZXZhbHVhdGVkKQpqdXN0IGdvIGluIHRoZSBwbGFpbiBvbGQgZmVuY2VkIHRleHQgYmxvY2sgdW5kZXIgdGhlIHF1ZXN0aW9uLgoKV2hlbiB5b3UgYXJlIGRvbmUsIG1ha2Ugc3VyZSB0aGF0IGFsbCBjb2RlIGNodW5rcyBhcmUgZXZhbHVhdGVkIGZyb20KYSBjbGVhbiBlbnZpcm9ubWVudCAoUnVuIC0+IFJ1biBBbGwpCmFuZCB0aGVuIFByZXZpZXcgdGhlIGRvY3VtZW50IHRvIG1ha2UgYSBjbGVhbiAubmIuaHRtbCBvdXRwdXQgZmlsZS4KVGhhdCBpcyB3aGF0IEkgd2lsbCBsb29rIGF0IGFzIHlvdXIgc3VibWlzc2lvbiwgc28gY2hlY2sgaXQgdG8gbWFrZSBzdXJlIGl0Cmxvb2tzIHJpZ2h0LgoKUmVtZW1iZXIsIGV2ZXJ5IG5ldyBmZW5jZWQgY29kZSBibG9jayBpcyBnb2luZyB0byBzdGFydCBydW5uaW5nIGluIGEgc2hlbGwKaW4gdGhlIHByb2plY3QgZGlyZWN0b3J5LCBzbyBpZiB5b3UgbmVlZCB0byBjaGFuZ2UgdG8gYSBuZXcgZGlyZWN0b3J5LCB5b3UKbmVlZCB0byBwdXQgdGhhdCBgY2RgIGNvbW1hbmQgaW4gdGhlcmUuCgpGaW5hbGx5LCB0aGVyZSBpcyBub3QgVEFCIGNvbXBsZXRpb24gZm9yIGJhc2ggaW4gdGhlIGZlbmNlZCBgYmFzaGAgY29kZSBibG9ja3MuClNvLCB5b3UgcHJvYmFibHkgd2FudCB0byBkZXZlbG9wIHlvdXIgY29tbWFuZCBsaW5lcyBpbiB0aGUgdGVybWluYWwgd2luZG93LgoKSSBwcm92aWRlIGFuIGFuc3dlciBmb3IgcXVlc3Rpb25zIDEgYW5kIDIgYXMgZXhhbXBsZXMgb2Ygd2hhdCB3ZSBhcmUgbG9va2luZyBmb3IuCgoKIyBgY2RgIHRvIHlvdXIgaG9tZSBkaXJlY3RvcnkgYW5kIHByaW50IGl0cyBwYXRoCgpgYGB7YmFzaH0KY2Qgfgpwd2QKYGBgCgojIFVzZSBlY2hvIHRvIHByaW50IGBteSBuYW1lIGlzIC0tLS1gIHRvIHN0ZG91dC4gIFdoZXJlIGAtLS0tYCBpcyByZXBsYWNlZCBieSB5b3VyIG5hbWUKCmBgYHtiYXNofQplY2hvICJteSBuYW1lIGlzIEVyaWMiCmBgYAoKCiMgbm93LCByZWFsbHksIGFuc3dlciB0aGUgYWJvdmUgcXVlc3Rpb24gYXMgeW91cnNlbGYKCmBgYHtiYXNofQplY2hvICJteSBuYW1lIGlzIExpYmJ5IgpgYGAKCiMgcHJpbnQgdGhlIGFic29sdXRlIHBhdGggb2YgdGhlIHRvcCBsZXZlbCBvZiB0aGUgaG9tZXdvcmsgZGlyZWN0b3J5IHdoZXJlIHRoaXMgaXMKCmBgYHtiYXNofQpwd2QgLgpgYGAKCiMgbGlzdCwgaW4gbG9uZyBmb3JtYXQsIGFsbCB0aGUgZmlsZXMgYW5kIGRpcmVjdG9yaWVzIGluIHRoaXMgaG9tZXdvcmsgZGlyZWN0b3J5CgpgYGB7YmFzaH0KbHMgLWwKYGBgCgpOb3RlIHRoYXQgc29tZSBvZiB0aGUgZmlsZSBuYW1lcyBtaWdodCBsb29rIGdhcmJsZWQgaW4gdGhlIFJtYXJrZG93biBvdXRwdXQuICBUaGlzCmlzIGEgY29uc2VxdWVuY3kgb2YgUk1hcmtkb3duL2h0bWwgbm90IHBsYXlpbmcgd2VsbCB3aXRoIHRoZSBzaGVsbCdzIHdheSBvZgpjb2xvcml6aW5nIGBsc2Agb3V0cHV0LgoKIyBUaGVyZSBpcyBhIGRpcmVjdG9yeSBjYWxsZWQgYC5naXRgIGluIGhlcmUgdGhhdCBkaWRuJ3QgZ2V0IGxpc3RlZC4gTGlzdCBldmVyeXRoaW5nIGFnYWluLCBidXQgbWFrZSBzdXJlIGAuZ2l0YCBpcyBpbiB0aGUgb3V0cHV0CgpgYGB7YmFzaH0KbHMgLWFsCmBgYAoKIyBXaGF0IGFyZSB0aGUgb3RoZXIgaGlkZGVuIGZpbGVzL2RpcmVjdG9yaWVzIHRoYXQgc2hvdyB1cCBpbiB0aGUgYWJvdmUgbGlzdGluZz8gSnVzdCBsaXN0IHRoZW0gaW4gdGhlIGZlbmNlZCB0ZXh0IGJsb2NrIGJlbG93CgpgYGAKLgouLgouUnByb2oudXNlcgouZ2l0aWdub3JlCmBgYAoKIyBMaXN0IChsb25nIGZvcm1hdCkgdGhlIGNvbnRlbnRzIG9mIHRoZSBkaXJlY3RvcnkgYC5naXRgCgpgYGB7YmFzaH0KbHMgLWFsZCAuZ2l0LyoKYGBgCgojIGlmIHlvdSB3YW50ZWQgdG8gdHlwZSBgbHMgZmFzdHEvRFBDaF9wbGF0ZTFfQTA2X1M2LlIxLmZxLmd6YCBvbiB0aGUgY29tbWFuZCBsaW5lLCB3aGF0IGlzIHRoZSBmZXdlc3Qga2V5c3Ryb2tlcyB0aGF0IGNhbiBnZXQgeW91IGBmYXN0cS9EUENoX3BsYXRlMV9BMDZfUzYuUjEuZnEuZ3pgIHVzaW5nIFRBQiBjb21wbGV0aW9uPwoKSSBkaWQgaXQgaW4gMTAgKGNvdW50aW5nIFRBQnMpLi4uCgpgYGAKSSB0aGluayBJIGRpZCBpdCBpbiAxMCBrZXlzdHJva2VzLCBpbmNsdWRpbmcgZG91YmxlLXRhcCBUQUItY29tcGxldGlvbnMuCmBgYAoKIyBtYWtlIGEgbmV3IGRpcmVjdG9yeSBjYWxsZWQgYGxvbmVseS1mYXN0cXNgLCBhbmQgaW5zaWRlIG9mIHRoYXQsIHR3byBkaXJlY3RvcmllcyBSMSBhbmQgUjIKCmBgYHtiYXNofQpta2RpciBsb25lbHktZmFzdHFzCm1rZGlyIGxvbmVseS1mYXN0cXMvUjEKbWtkaXIgbG9uZWx5LWZhc3Rxcy9SMgpgYGAKCiMgQ29weSAobm90IG1vdmUpIGFsbCB0aGUgcmVhZDEgKGBSMWApIGZhc3RxIGZpbGVzIGluIGBmYXN0cXNgIGludG8gYGxvbmVseS1mYXN0cXMvUjFgIGFuZCBhbGwgdGhlIHJlYWQyIGZhc3RxcyBpbnRvIGBsb25lbHktZmFzdHFzL1IyYC4gV2hlbiB5b3UgYXJlIGRvbmUsIG9uIHRoZSBuZXh0IGxpbmUgaW4gdGhlIGNvZGUgYmxvY2ssIGxpc3QgdGhlIGNvbnRlbnRzIG9mIGBsb25lbHktZmFzdHFzL1IxYCBhbmQgYGxvbmVseS1mYXN0cXMvUjJgCgpgYGB7YmFzaH0KY3AgZmFzdHEvKi5SMS5mcS5neiBsb25lbHktZmFzdHFzL1IxCmNwIGZhc3RxLyouUjIuZnEuZ3ogbG9uZWx5LWZhc3Rxcy9SMgpgYGAKCiMgZG8gYSByZWN1cnNpdmUsIHNob3J0IGxpc3Rpbmcgb2YgdGhlIGNvbnRlbnRzIG9mIGBsb25lbHktZmFzdHFzYAoKYGBge2Jhc2h9CmxzIC1SIGxvbmVseS1mYXN0cXMvCmBgYAoKIyBVc2UgdGhlIHJlY3Vyc2l2ZSAoLXIpIG9wdGlvbiB0byByZW1vdmUgYGxvbmVseS1mYXN0cXNgIGFuZCBpdHMgY29udGVudHMKCmBgYHtiYXNofQpybSAtciBsb25lbHktZmFzdHFzCmBgYAoKIyBNYWtlIHR3byBuZXcgZGlyZWN0b3JpZXMgaW4gdGhlIHRvcCBsZXZlbCBvZiB0aGUgcmVwbyBjYWxsZWQgYGZxX0FCYCBhbmQgYGZxX25vdEFCYAoKYGBge2Jhc2h9Cm1rZGlyIGZxX0FCCm1rZGlyIGZxX25vdEFCCmBgYAoKSWYgeW91IGdldCBhbiBlcnJvciBiZWNhdXNlIHlvdSBhbHJlYWR5IGNyZWF0ZWQgdGhvc2UgZGlyZWN0b3JpZXMsIHRoYXQgaXMgT0sKZGlyZWN0b3JpZXMgYXJlIHRoZXJlLCBpdCdzIGFsbCBnb29kLi4uCgojIFVzaW5nIHRoZSBgW2AgYF1gIGNvcHkgdGhlIFIxIGZpbGVzIGluIGBmYXN0cXNgIHRoYXQgYmVsb25nIHRvIHNhbXBsZSBuYW1lcyAodGhlIHBhcnQgaW1tZWRpYXRlbHkgYWZ0ZXIgYERQQ2hfcGxhdGUxX2ApIHN0YXJ0aW5nIHdpdGggYW4gYEFgIG9yIGBCYCB0byBgZnFfQUJgLiAgCgpgYGB7YmFzaH0KPz8KYGBgCgojIE5vdywgdXNpbmcgbmVnYXRpb24gKGBeYCkgd2l0aCBgW2AgYW5kIGBdYCBjb3B5IGFsbCB0aGUgUjEgZmlsZXMgdGhhdCBkb24ndCBiZWxvbmcgdG8gc2FtcGxlIG5hbWVzIHN0YXJ0aW5nIHdpdGggYW4gYEFgIG9yIGEgYEJgIHRvIGBmcV9ub3RBQmAuIFdoZW4geW91IGFyZSBkb25lLCBvbiB0aGUgbmV4dCBsaW5lIGluIHRoZSBjb2RlIGJsb2NrLCBsaXN0IHRoZSBjb250ZW50cyBvZiBgZnFfQUJgIGFuZCBgZnFfbm90QUJgLiAKCmBgYHtiYXNofQoKYGBgCgojIFJlbW92ZSBgZnFfQUJgIGFuZCBgZnFfbm90QUJgLCBhbmQgdGhlaXIgY29udGVudHMKCmBgYHtiYXNofQoKYGBgCgojIFVzaW5nIHRoZSBgeyx9YCBjb25zdHJ1Y3QgY3JlYXRlIGZpdmUgZGlyZWN0b3JpZXMgbmFtZWQgYGRpcl9BYCwgYGRpcl9DYCwgYGRpcl9FYCwgYGRpcl9HYCwgYW5kIGBkaXJfSWAsIGFuZCBsaXN0IHRoZW0gKGJ1dCBub3QgdGhlaXIgY29udGVudHMpIHdoZW4geW91IGFyZSBkb25lCgpgYGB7YmFzaH0KCmBgYAoKIyBVc2luZyBnbG9iYmluZywgcmVtb3ZlIGBkaXJfQWAsIGBkaXJfQ2AsIGBkaXJfRWAsIGBkaXJfR2AsIGFuZCBgZGlyX0lgLCB1c2luZyBhIGNvbW1hbmQgd2l0aCA4IGNoYXJhY3RlcnMgKGluY2x1ZGluZyBzcGFjZXMpCgpgYGB7YmFzaH0KCmBgYAoKIyBDcmVhdGUgYSBkaXJlY3RvcnkgY2FsbGVkIGBuaWNlX2Rpcl9uYW1lYCBhbmQgdGhlbiB1c2UgYGVjaG9gLCByZWRpcmVjdGluZyBpdHMgb3V0cHV0IHRvIGNyZWF0ZSBhIGZpbGUgY2FsbGVkIGBuaWNlX2ZpbGVfbmFtZWAgaW5zaWRlIG9mIGBuaWNlX2Rpcl9uYW1lYCB3aG9zZSBjb250ZW50cyBpcyB0aGUgc3RyaW5nIGBBIHN0cmluZyBpbiBhIGZpbGUhYAoKYGBge2Jhc2h9CgpgYGAKCiMgQ2F0ZW5hdGUgdGhlIGNvbnRlbnRzIG9mIGBuaWNlX2Rpcl9uYW1lL25pY2VfZmlsZV9uYW1lYCB0byBfc3Rkb3V0XwoKYGBge2Jhc2h9CgpgYGAKCiMgQ3JlYXRlIGEgZGlyZWN0b3J5IGNhbGxlZCBgYmFkIGRpcmVjdG9yeSBuYW1lIHdpdGggc3BhY2VzYCwgYW5kIHRoZW4sIHdpdGggcmVkaXJlY3Rpb24sIGNyZWF0ZSBhIGZpbGUgaW5zaWRlIGl0LCBuYW1lZCBgYmFkIGZpbGUgbmFtZSB3aXRoIHNwYWNlc2Agd2hvc2UgY29udGVudHMgYXJlIHRoZSBzdHJpbmcgYFdob2EhIE5vIHNwYWNlcywgcGxlYXNlIWAuICBVc2UgYmFja3NsYXNoIGVzY2FwaW5nIGluc3RlYWQgb2YgcXVvdGluZwoKYGBge2Jhc2h9CgpgYGAKCiMgQ2F0ZW5hdGUgdGhlIGNvbnRlbnRzIG9mIGBiYWQgZGlyZWN0b3J5IG5hbWUgd2l0aCBzcGFjZXMvYmFkIGZpbGUgbmFtZSB3aXRoIHNwYWNlc2AKCmBgYHtiYXNofQoKYGBgCgojIGxpc3QgdGhlIGRpcmVjdG9yaWVzIChqdXN0IHRoZSBuYW1lcywgbm90IHRoZSBjb250ZW50cyAoYC1kYCkpIGBiYWQgZGlyZWN0b3J5IG5hbWUgd2l0aCBzcGFjZXNgIGFuZCBgbmljZV9kaXJfbmFtZWAuCgpgYGB7YmFzaH0KCmBgYAoKIyBPbmNlIHlvdSBhcmUgY29udmluY2VkIHRoYXQgeW91IGNhbiBsaXN0IHRoZSBkaXJlY3RvcmllcyBjb3JyZWN0bHkgaW4geW91ciB0ZXJtaW5hbCwgcmVjYWxsIHRoYXQgYGxzYCBjb21tYW5kIGFuZCByZXBsYWNlIGBsc2Agd2l0aCBgcm0gLXJgIHRvIHJlbW92ZSB0aGVtCgpgYGB7YmFzaH0KCmBgYAoKIyBXaHkgaXMgaXQgYSBnb29kIGlkZWEgdG8gYGxzYCB0aGluZ3MgYmVmb3JlIHJlbW92aW5nIHRoZW0/CgpgYGAKCmBgYAoKIyBJZiB5b3UgaGFkIGp1c3QgdHlwZWQgYHJtIC1yIGJhZCBkaXJlY3RvcnkgbmFtZSB3aXRoIHNwYWNlc2Agd2hhdCB3b3VsZCBVbml4IGhhdmUgdHJpZWQgdG8gcmVtb3ZlPwoKYGBgCgpgYGAKCiMgVGhlcmUgYXJlIGJhbSwgc2FtLCBhbmQgZmFzdHEgZmlsZXMsIGluIHRoZSBhcHByb3ByaWF0ZWx5IG5hbWVkIGRpcmVjdG9yaWVzIGZvciBzYW1wbGUgYEEwNV9TNWAuIE1ha2UgYSBkaXJlY3RvcnkgbmFtZWQgYEEwNV9TNWAgYW5kIGNvcHkgYWxsIHRob3NlIGZpbGVzIGludG8gdGhhdCBuZXcgZGlyZWN0b3J5LiAgTGlzdCB0aGUgZGlyZWN0b3J5IHdoZW4geW91IGFyZSBkb25lLgoKYGBge2Jhc2h9CgpgYGAKCiMgcmVtb3ZlIHRoZSBkaXJlY3RvcnkgYEEwNV9TNWAgYW5kIGl0cyBjb250ZW50cwoKYGBge2Jhc2h9CgpgYGAKCiMgVXNlIGBsc2AgdG8gdHJ5IHRvIGxpc3QgdGhlIGZpbGUgYGl0X2FpbnRfaGVyZWAKCmBgYHtiYXNofQoKYGBgCgojIE5vdywgZG8gdGhlIHNhbWUgdGhpbmcgYnV0IHJlZGlyZWN0IF9zdGRlcnJfIGludG8gYSBmaWxlIGNhbGxlZCBgbXlfYmFkLnR4dGAsIGFuZCB0aGVuIGNhdGVuYXRlIHRoZSBjb250ZW50cyBvZiB0aGF0IGZpbGUsIGFuZCB0aGVuIHJlbW92ZSBpdAoKYGBge2Jhc2h9CgpgYGAKCiMgVGhlIGZpbGVzIGluIGBmYXN0cWAgYXJlIHRleHQgZmlsZXMsIGJ1dCB0aGV5IGFyZSBhbGwgZ3ppcHBlZC4gIFVzaW5nIGBnemNhdGAgYW5kIGEgcGlwZSwgdmlldyB0aGUgZmlyc3QgOCBsaW5lcyBvZiBgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMS5mcS5nemAKCmBgYHtiYXNofQoKYGBgCgojIERvIHRoZSBzYW1lIHRvIHNlZSB0aGUgZmlyc3QgOCBsaW5lcyBvZiBgZmFzdHEvRFBDaF9wbGF0ZTFfQzExX1MzNS5SMi5mcS5nemAKCmBgYHtiYXNofQoKYGBgCgojIFdoYXQgZG8geW91IG5vdGljZSBhYm91dCB0aGUgbmFtZXMgb2YgdGhlIHR3byByZWFkcyBpbiBlYWNoIGZpbGUgKExpbmVzIDEgYW5kIDUsIHRoYXQgc3RhcnQgd2l0aCBhIGBAYCkKCmBgYAoKYGBgCgoKIyBQcmludCB0aGUgZGF0ZSwgcmVkaXJlY3QgaXQgdG8gYSBmaWxlIGNhbGxlZCBgbm93LnR4dGAsIGNhdGVuYXRlIHRoYXQgZmlsZSB0byBfc3Rkb3V0XyBhbmQgdGhlbiByZW1vdmUgaXQKCmBgYHtiYXNofQoKYGBgCgojIENvdW50IHRoZSBudW1iZXIgb2YgbGluZXMvd29yZHMvY2hhcmFjdGVycyAodXNpbmcgYHdjYCkgaW4gdGhlIHR3byBTQU0gZmlsZXMgaW4gdGhlIGBzYW1gIGRpcmVjdG9yeQoKYGBge2Jhc2h9CgpgYGAKCiMgTm90ZSB0aGF0IGd6Y2F0IHdpbGwgZGVjb21wcmVzcyBhbGwgZmlsZXMgeW91IGdpdmUgaXQgYW5kIHNlbmQgdGhlIG91dHB1dCB0byBfc3Rkb3V0Xy4gIEtub3dpbmcgdGhpcywgY291bnQgaG93IG1hbnkgbGluZXMgYXJlIGluIGFsbCB0aGUgYFIxYCBmaWxlcyBpbiBgZmFzdHFgIChhZnRlciBkZWNvbXByZXNzaW5nIHRoZW0gaW50byB0ZXh0IGZpbGVzKSwgYW5kIGFsc28gY291bnQgdXAgYWxsIHRoZSBsaW5lcyBpbiB0aGUgYFIxYCBmaWxlcyBpbiBgZmFzdHFgLiAgTm90ZSB0aGV5IHNob3VsZCBiZSB0aGUgc2FtZS4KCmBgYHtiYXNofQoKYGBgCgojIE5vdywgZ3pjYXQgYWxsIHRoZSBgUjFgIGZpbGVzIGluIGBmYXN0cWAgYW5kIHJlZGlyZWN0IHRoYXQgdG8gYSBmaWxlIGNhbGxlZCBgUjFfYWxsX3ZpYV9nemNhdC5mcWAgaW4gdGhlIHRvcCBkaXJlY3Rvcnkgb2YgdGhlIHJlcG8KCmBgYHtiYXNofQoKYGBgCgojIFBlb3BsZSBhcmUgdXN1YWxseSBmYW1pbGlhciB3aXRoIHVzaW5nIGBjYXRgIHRvIGNhdGVuYXRlIHRleHQgZmlsZXMuICBJdCB0dXJucyBvdXQgdGhhdCB5b3UgY2FuIGFsc28gY2F0ZW5hdGUgYGd6aXBgIGNvbXByZXNzZWQgZmlsZXMuICBUaGUgcmVzdWx0IGlzIGFub3RoZXIgcHJvcGVybHkgZ3ppcHBlZCBmaWxlIHRoYXQgY2FuIGJlIGRlY29tcHJlc3NlZC4gIENhdGVuYXRlIGFsbCB0aGUgZ3ppcHBlZCBgUjFgIGZpbGVzIGluIGBmYXN0cWAgaW50byBhIHNpbmdsZSAoc3RpbGwgZ3ppcHBlZCkgZmlsZSBjYWxsZWQgYFIxX2FsbF92aWFfY2F0LmZxLmd6YAoKYGBge2Jhc2h9CgpgYGAKCiMgQ29weSBgUjFfYWxsX3ZpYV9jYXQuZnEuZ3pgIHRvIGBjb3B5X29mX1IxX2FsbF92aWFfY2F0LmZxLmd6YAoKYGBge2Jhc2h9CgpgYGAKCiMgTm93LCBkZWNvbXByZXNzIGBSMV9hbGxfdmlhX2NhdC5mcS5nemAgaW50byBgUjFfYWxsX3ZpYV9jYXQuZnFgCgpgYGB7YmFzaH0KCmBgYAoKIyBDb21wdXRlIHRoZSBTSEExIGhhc2hlcyBvZiBgUjFfYWxsX3ZpYV9jYXQuZnFgIGFuZCBgUjFfYWxsX3ZpYV9nemNhdC5mcWAgdG8gY29uZmlybSB0aGV5IGFyZSBpZGVudGljYWwKCmBgYHtiYXNofQoKYGBgCgojIEJ1dCBub3csIGd6aXAgYFIxX2FsbF92aWFfZ3pjYXQuZnFgIGFuZCBjb21wYXJlIHRoZSByZXN1bHQgdG8gYGNvcHlfb2ZfUjFfYWxsX3ZpYV9jYXQuZnEuZ3pgIGJ5IGNvbXB1dGluZyB0aGUgU0hBMSBoYXNoIG9mIGVhY2gKCmBgYHtiYXNofQoKYGBgCgpOb3RlIHRoYXQgdGhpcyBzaG93cyB0aGF0LCBhbHRob3VnaCB0aGUgY29tcHJlc3NlZCBmaWxlcyBhcmUgbm90IGlkZW50aWNhbCwgdGhlaXIgY29udGVudHMgKG9uY2UgZGVjb21wcmVzc2VkLCBhcmUgaWRlbnRpY2FsKS4KCiMgdXNpbmcgYGR1YCB3aXRoIHRoZSBgLWhgIChpLmUuICJodW1hbiByZWFkYWJsZSIgb3B0aW9uKSBwcmludCB0aGUgZmlsZSBzaXplcyBvZiBgUjFfYWxsX3ZpYV9jYXQuZnFgIGFuZCBgY29weV9vZl9SMV9hbGxfdmlhX2NhdC5mcS5nemAuCgpgYGB7YmFzaH0KCmBgYAoKIyBCeSB3aGF0IGZhY3RvciAoYXBwcm94aW1hdGVseSkgZG9lcyB0aGUgY29tcHJlc3Npb24gc2F2ZSBzdG9yYWdlIHNwYWNlIG9uIHlvdXIgZGlzaz8KCmBgYAoKYGBgCgojIFJlbW92ZSBhbGwgZmlsZXMgc3RhcnRpbmcgd2l0aCBgUjFfYWxsYCBhbmQgYGNvcHlfb2ZfUjFgCgpgYGB7YmFzaH0KCmBgYAoKIyBOb3csIHByaW50IHRoZSBmaWxlIHNpemVzICh3aXRoIGBkdSAtaGAsIGFnYWluKSBvZiB0aGUgZmlsZXMgaW4gYGJhbWAgdG8gdGhlIGZpbGVzIGluIGBzYW1gCgpgYGB7YmFzaH0KCmBgYAoKCiMgUHJpbnQgdGhlIGxhc3QgMTUgbGluZXMgb2YgYHNhbS9EUENoX3BsYXRlMV9BMDVfUzUuc2FtYCB0byBfc3Rkb3V0XwoKYGBge2Jhc2h9CgpgYGAKCklmIGl0IGFsbCBsb29rcyBsaWtlIGdpYmJlcmlzaCB0byB5b3UsIGRlc3BhaXIgbm90ISAgWW91IHdpbGwgYmUgc3VwZXIgZmFtaWxpYXIgd2l0aAp0aGlzIGZpbGUgZm9ybWF0IHdpdGhpbiBhIGNvdXBsZSBvZiB3ZWVrcyBmcm9tIG5vdy4KCgojIFByaW50IHRoZSBfZmlyc3RfIDE1IGxpbmVzIG9mIGBzYW0vRFBDaF9wbGF0ZTFfQTA1X1M1LnNhbWAgdG8gX3N0ZG91dF8KCmBgYHtiYXNofQoKYGBgCgojIENhdGVuYXRlIHRoZSBmaWxlIGBjb3VudF9maWxlcy5zaGAgdG8gX3N0ZG91dF8KCmBgYHtiYXNofQoKYGBgCgojIE5vdGUgdGhhdCBgY291bnRfZmlsZXMuc2hgIGlzIGEgc2hvcnQgc2hlbGwgc2NyaXB0LiBUcnkgdG8gZXhlY3V0ZSBpdCB3aXRoIGAuL2NvdW50X2ZpbGVzLnNoYAoKYGBge2Jhc2h9CgpgYGAKCkFoYSEgWW91IHNob3VsZCBoYXZlIGdvdHRlbiBhIHBlcm1pc3Npb24gZGVuaWVkIGVycm9yLiAgOTklIG9mIHRoZSB0aW1lIHRoYXQgb2NjdXJzIGJlY2F1c2UKdGhlIGZpbGUgaXMgbm90IHVzZXItZXhlY3V0YWJsZS4KCiMgTGlzdCAobG9uZykgYGNvdW50X2ZpbGVzLnNoYCB0byBzZWUgd2hhdCB0aGUgcGVybWlzc2lvbnMgYXJlLCBhbmQgdGhlbiBhZGQgZXhlY3V0ZSAoYHhgKSBwZXJtaXNzaW9ucyB0byB1c2VycyBhbmQgZ3JvdXBzIHdpdGggdGhlICJhZGQtb3Itc3VidHJhY3QgcGVybWlzc2lvbnMgc3ludGF4IiBvZiBgY2htb2RgLCB0aGVuIGxvbmcgbGlzdCBpdCBhZ2FpbgoKYGBge2Jhc2h9CgpgYGAKCgoKCiMgVXNlIGNobW9kIHRvIGNoYW5nZSBwZXJtaXNzaW9ucyBvZiB0aGUgZmlsZXMgaW4gdGhlIGBzaWxseWAgZGlyZWN0b3J5IHRvIG1hdGNoIHRoZWlyIG5hbWVzLiBGb3IgZXhhbXBsZSBmb3IgdGhlIGZpcnN0IG9uZSB5b3Ugd291bGQgdXNlOiBgY2htb2QgNzcwIEZJTEUtcnd4cnd4LS0tYC4gIFVzZSB0aGUgb2N0YWwgc3BlY2lmaWVycyB0byBgY2htb2RgLiBEbyB0aGlzIGZvciBhbGwgNSBmaWxlcyAob25lIGNobW9kIGNvbW1hbmQgZm9yIGVhY2gpLCBhbmQgYXQgdGhlIGVuZCBkbyBgbHMgLWwgc2lsbHlgIHRvIHZlcmlmeSB0aGV5IGFyZSBjb3JyZWN0LgoKYGBge2Jhc2h9CgpgYGAK</div>
 
 
 
